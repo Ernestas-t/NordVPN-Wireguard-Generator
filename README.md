@@ -40,16 +40,16 @@ You can provide the token via:
 
 ```bash
 # Token from environment variable or prompt
-python3 nord_wg_gen.py
+python3 main.py
 
 # Explicit token
-python3 nord_wg_gen.py --token "YOUR_ACCESS_TOKEN_HERE"
+python3 main.py --token "YOUR_ACCESS_TOKEN_HERE"
 ```
 
 ### Filter by Country
 
 ```bash
-python3 nord_wg_gen.py --country Lithuania
+python3 main.py --country Lithuania
 ```
 
 ### Server Selection
@@ -70,7 +70,7 @@ Select server [1-8]: 2
 ### Custom Output Path
 
 ```bash
-python3 nord_wg_gen.py --country Lithuania --output nordwg.conf
+python3 main.py --country Lithuania --output nordwg.conf
 ```
 
 ## Generated Configuration
@@ -99,7 +99,7 @@ PersistentKeepalive = 25
 ## CLI Options
 
 ```
-usage: nord_wg_gen.py [-h] [-t TOKEN] [-c COUNTRY] [-m MAX] [-o OUTPUT]
+usage: main.py [-h] [-t TOKEN] [-c COUNTRY] [-m MAX] [-o OUTPUT]
 
 Generate a NordVPN WireGuard config using the Nord API.
 
