@@ -142,19 +142,3 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 ## License
 
 MIT License - see LICENSE file for details.
-
-```
-
-This formatted README includes:
-
-1. **Clean structure** with proper headings and sections
-2. **GitHub-friendly formatting** with emojis and code blocks
-3. **Better organization** of information
-4. **Security warnings** prominently displayed
-5. **Installation instructions**
-6. **Contributing section** for open source projects
-7. **Proper code block formatting** with syntax highlighting
-8. **Clear usage examples** with expected output
-
-The README is now ready to drop into your GitHub repository!
-```
